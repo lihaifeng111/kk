@@ -3,7 +3,7 @@ package k1
 import "time"
 
 func NowUnixTS() string {
-	return "kkkkk"
+	return "wwewe"
 }
 
 func NowUnixTSMill() int64{
