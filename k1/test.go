@@ -2,8 +2,8 @@ package k1
 
 import "time"
 
-func NowUnixTS() string {
-	return "wwewe"
+func NowUnixTS() (int64,string) {
+	return time.Now().Unix(),"666666"
 }
 
 func NowUnixTSMill() int64{
