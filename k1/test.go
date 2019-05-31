@@ -1,9 +1,12 @@
 package k1
 
-import "time"
+import (
+      "time"
+      "github.com/lihaifeng111/gitskills/k2"
+)
 
-func NowUnixTS() (int64,string) {
-	return time.Now().Unix(),"666666"
+func NowUnixTS() (int64,string,string) {
+	return time.Now().Unix(),"666666",k2.GetUserMessage()
 }
 
 func NowUnixTSMill() int64{
